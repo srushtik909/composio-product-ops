@@ -1,0 +1,558 @@
+[
+  {
+    "app": "Salesforce",
+    "category": "CRM and Sales",
+    "description": "Salesforce is a cloud-based Customer Relationship Management (CRM) platform that helps businesses manage customer relationships and related applications through a software-as-a-service model.",
+    "auth_methods": [
+      "OAuth2",
+      "JWT",
+      "Other"
+    ],
+    "access_model": "Paid plan required",
+    "api_type": [
+      "REST",
+      "SOAP",
+      "GraphQL",
+      "Other"
+    ],
+    "api_breadth": "Broad",
+    "mcp_availability": "Official MCP",
+    "buildability": "BUILDABLE WITH CONSTRAINTS",
+    "main_blocker": "Full API access for production environments typically requires specific Salesforce editions (e.g., Enterprise, Unlimited) or purchasing API access as an add-on for Professional Edition, along with admin approval for connected apps and adherence to API limits.",
+    "confidence": 0.9,
+    "notes": "Salesforce provides a comprehensive suite of APIs, including REST, SOAP, and GraphQL, enabling extensive integration. Official Model Context Protocol (MCP) servers are generally available for Salesforce core CRM and Marketing Cloud Engagement, facilitating AI agent integration. While a free Developer Edition offers self-serve access for building and testing, integrating with customer production organizations necessitates paid Salesforce editions, explicit administrator approval for connected applications, and managing API usage limits. The Models API for interacting with Large Language Models also has associated usage and billing rates.",
+    "evidence": [
+      {
+        "source_id": 0,
+        "title": "wikipedia.org",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMmuI56cNc0JjsWczA_u2aNt8r-qw18dR-6U5MJOjvQzWokloUyxpdz-AHWQA16XgFYlCCRnJyaJwSP0Px3Z1jbeSHmPhSufnFOog1mMI3MxSDwTXJx31dK2uNSEmyNVBOMuo=",
+        "domain": null
+      },
+      {
+        "source_id": 1,
+        "title": "ascendix.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEZ4brCkrLi7eqy40rCBJtTZ61bzjR_2hVQzu0kuQwilcxeuqFIrJWRQuln4o4WMQK5cIggTgCYnHdBSVdSBeqT-KOTk9ttFp-tI0FOoH59Qc5siS06Eowt7Ii1L5ze7AYos2YRQLa4Ea5zBFrD3RwIPasTCaQVJwRrEZwifEQDGBL6RM=",
+        "domain": null
+      },
+      {
+        "source_id": 2,
+        "title": "reddit.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFW3t45wxfjmQAqd6A8ML2UUluzBiTLPzcv4HNp3fKI2v44oEWg1_TxFH0bF0T3YSSD_1IkPtkNGedBPJr-RMLTjb7JGLaCpQrgNiVY3qKFCq870u85RFcz5vLg39M2Q1G90ZnjbJfnSwVzjhHvEOKsL-lWSDqkVR2t-lmgA03hqcB9Og0p7ATFkJkOnCPP6Q==",
+        "domain": null
+      },
+      {
+        "source_id": 3,
+        "title": "cargas.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM17ZYNXbcD_XYszGV20eU0nrCsex5FdjSdWrhhFObsjfnxF63JTfgftygu5Q4dSDZmARUmfAEnjtygF0pC81Sf-KGSc0_2r78eebjOCHPmJ_WWPWu-TkgfauzgkFe1sXM3cyiKd0=",
+        "domain": null
+      },
+      {
+        "source_id": 4,
+        "title": "simplilearn.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXyZG2KsC97ocSSVygOBIAKkBbLyiqOSZmT517foVOYpKuRggWdI-dNwKcGBsLxVrCh0W-gcFOgMTCGpfVvJzdBh7BSw4g7anFFhTbIxw2hcJUQ4N4wasbjeO5MFuVwaLwjoumgl81S9tMnBNYVdtbgQ==",
+        "domain": null
+      },
+      {
+        "source_id": 5,
+        "title": "salesforce.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGY2tsLGRcPf4tyMwY20lIwSx3Z8wQRS9KA9o5Q_SYfw_0oro0t7LTcnpfWhji5iWPkQI7ZZM_z-A_V_hirGwVTjKY3zl3F6YiCiy4xXaVy4TlSKiJ9khBxNhqgVfZV4PueL0b6JywNAzHiyUIGt1aVgp3lJxahweBmr8R-BrV6dP9GlmVbNWp5dew0edkeT7uAWwCWxkxvFdajqPYvtpEtrpSImhscnKto7g==",
+        "domain": null
+      },
+      {
+        "source_id": 6,
+        "title": "salesforce.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Qg3MyIxDpcNfrp0rIL__V9ROBiz2JnQCpMcVicmfNtnjric__gs0r9wrVxWL_1hd8ZZmH6AZCwbWk0GwBwqF2fCn7-fQRnFfjL88ecmdoxg-Sxz7GzysRD76np4fp2mvKPJdwB-9kgI6S06IZaW343_4jzIRWJNbvnUEhJDPL-bJoEdVFXU=",
+        "domain": null
+      },
+      {
+        "source_id": 7,
+        "title": "salesforce.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpxTW8HbnFvgPoYSpuWz8MJ0VZwnWCEIAKChprjZtAy4WdD7iNymK4bO_2FpUSHhLMpfy3r9QHpndaFmmY0Iyxz73flQI6ehwFWCimwRf7ycEfUOMGARBt5G1_VAUENf7aQs-qn_j3f9k9c9IwD7VWFeKZzePCVZWg98MqHfZMXhVzckPQdtnAKnDJ0sVHldNUy7E51w==",
+        "domain": null
+      },
+      {
+        "source_id": 8,
+        "title": "unified.to",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUxt5_poRVrgIoiGG8pvoxbv6KOT-mux0t80RVE2RVptkxc5w9HUVfJbNmHQ4PbmegYcgPm7hrbcchMDIxDZ6EbGwVyT9vuaBKgIlACcXvZkmsZSFeGNbF2Nla1UJCZhc3Y5H7DsvA9TVLvZIsbeEdPYbwfJN1yg==",
+        "domain": null
+      },
+      {
+        "source_id": 9,
+        "title": "ascendix.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYl62ZjYowgnX1vlbqnM7arvnI2iR0JYu2RJy_pALK3bIb-shhzSnGzRVVuykx93rGFdrs35pczF8D8dCzeBsg04Oor_fn51AoT0d4Z4ErhA88f3ycgS6C6e9yh-d2ixAAnFYC6ODskf-DW7mQZg==",
+        "domain": null
+      },
+      {
+        "source_id": 10,
+        "title": "medium.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbAo1yuJDcb4ticc99Sol9aXfq4ZeG7MhlyaqMnM4T60J5_ImyjcqIjvEtGiyTgHaBSH4RjSSg4M9uQui4euGNVYJ8PK1IsozXwn4fUGXoxn3_Ao0f-wGvAtlqAtj579dhtxWrLdqE_vSUKLb-MhKzfXq28GuLTpxwvmwnfM5OyE4A-2z0LM4zw55WAEn4i8KTSYU=",
+        "domain": null
+      },
+      {
+        "source_id": 11,
+        "title": "salesforce.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXAXV-YAPklo1hAYlmuX_kiVQOGmkPrSaHREOklflXGd_c6P5evOXAM6qhJSwFU9hmYAk4vIJcnElAMPbnhYj8j6yAcThI1Z4mRamcA3VVvC9Utm_sHbMNIipGRBASWYD9D829l73ma467eDy9ruBgbRTWv-Ir_YvyLzdy4gyddRqaND0nt3DEDuQVMzCOsDIx4w__UQ==",
+        "domain": null
+      },
+      {
+        "source_id": 12,
+        "title": "softteco.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzAfgewc98aXH5OCNURD7A-LT6mr_3m0cn0Mo_wkFTFZwPwyH2HDKiefIDU2x-Hqr1Ad8ndg5ESdy_1b5DXcxk0JNrVzEboZDLXXU936N3DW0vHj6clGlUcyahJD1k2mxLJbmiBVYltKZLNV48ABkKxxY=",
+        "domain": null
+      },
+      {
+        "source_id": 13,
+        "title": "salesforce.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGGd0ynEMayEYQvQGnrt_roFVr-vepHpSOeDGo_3YkSflXHB9yLNE34R7gSJz5FRNxPFHF-LujQy7ImZoOsPN4C2Wlp3YQS5QZPeeGvL_bb4Tr94rQQSpTGstUoAfgXIoLNS4YjvXxhUgPzJQYEfZb68EFXRjxUHDs_osrFi6s9YCmwYYJcw_bldVMDcxlJo-VNATEJDFrPHEOtgkO8TWW-W6a",
+        "domain": null
+      },
+      {
+        "source_id": 14,
+        "title": "growthmethod.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzAlzw8SkqX6meUTvoHK0J2xShpGr-2ZTwywr9MAEMAXhQygTzxlM15Nb8GxrEI8SE7l_jaCwyq-UnSDKdlACU-2JOvfPuk089ysHno1bsM0stChqeTvVISrHa4QD1Fd-_iXjdP4DfL7JH",
+        "domain": null
+      },
+      {
+        "source_id": 15,
+        "title": "vessel.dev",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqBjtMTMnuVEtxHA7Ug6ZlAB6w9vnJkadahQIuNkhnrCqzko2JhFVSq9sKotdiwTnuqMuOoEpzeXeZ4KhuSNec3UNYtNHxCp20tM3ouj0ww7nCiw2Pc0uQuWRFicCgHKR-lQt6mERrCSz_HxnKA2PZILrPnQbufyBc2JZsoTiz7VAWtuHnHa_j7pA=",
+        "domain": null
+      },
+      {
+        "source_id": 16,
+        "title": "salesforce.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYUlXRWmDmGZCque8-M9yF6eCgUnd3HeF2X9ZOthydhdJLotoSsa2cjpGk3ScoiW8iSAjWfrkYEGdg3WwzL6BNy86EGhdQWXRgYbQFw_kH8YINviL7jMZLqWO4m0o0fdZgjDQvVNjIb5AuDs9Bq8zSwQewYhcxlt0MmBumgCsNhVISsKfyeTDJC5Ut3uOGqkShk1DwkLngu4WmgSHMMcMTHQ==",
+        "domain": null
+      },
+      {
+        "source_id": 17,
+        "title": "salesforce.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1hT05bwT8Tpw81SPPcdBZPzxB7T8sv4kllflvIFoh1Z-2_Kxoxnl9KcutvePz8TK_Rk67YcyVQQWSVDLzpX8sEBUkZ8p0SJaD0R57k8PTUYz8afPj1uziol2JZeoTykMGbCvqGRrAbQaOoJV5PpA49K3o_7kwxHdEeXb_VNcNk47UAWGZh25KU_-G_FKqU7DYRXFLvgekCVC73Q==",
+        "domain": null
+      },
+      {
+        "source_id": 18,
+        "title": "salesforce.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_A6EjNYxriaytdGAFlaKGTh613vVBQKuD8FIsEJxHxL84MDRiz3UaDgPfcR9kr0Mfcr1lWGtXtuGrFA1MM_YVkyLT9uuDYt-2X4zyLFi5dOgR2dezyKsiQ39RmLdv1nT9ejtcb97OyzZjdERYKbJdGPV73d8nY_t5R4AiMfimSXRQk-2A_i0li9obyZG8Os9Odnjs",
+        "domain": null
+      }
+    ]
+  },
+  {
+    "app": "HubSpot",
+    "category": "CRM and Sales",
+    "description": "HubSpot is a comprehensive customer relationship management (CRM) platform offering tools for sales, marketing, customer service, content management, and operations.",
+    "auth_methods": [
+      "OAuth2",
+      "Token"
+    ],
+    "access_model": "Self-serve",
+    "api_type": [
+      "REST"
+    ],
+    "api_breadth": "Broad",
+    "mcp_availability": "Official MCP",
+    "buildability": "BUILDABLE NOW",
+    "main_blocker": null,
+    "confidence": 0.95,
+    "notes": "HubSpot's APIs primarily use OAuth 2.0 for multi-account integrations and private app access tokens (bearer tokens) for single-account setups; legacy static API keys were deprecated in 2022. Developers can gain access to HubSpot's developer platform and tools within a standard HubSpot account, which can be a free account, by enabling 'Developer tools access' permissions. While initial development can often begin without cost, access to advanced API features, higher API call limits (beyond the initial 40,000 calls per day), and certain product functionalities typically requires a paid HubSpot subscription (Starter, Professional, or Enterprise tiers). The API follows a date-based versioning model.",
+    "evidence": [
+      {
+        "source_id": 0,
+        "title": "hubspot.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeiS4c9cU01fJX7xaa6st7fYHcBd48vB4ZEp76ppitPL0tpTapoMrXTnzuIEug-ytbG0qos-vNacSvbZlojw7MeEH1YVzN4aXBEjKcLXuyq2gpKsDTVLqTT2tl9EqwyGUG-gAtWVYPI0qsQ7C8LHX_j7caEJUn0x8H6K3wou88ZHD5Z3c0ZwzD-CB81w==",
+        "domain": null
+      },
+      {
+        "source_id": 1,
+        "title": "getknit.dev",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZz4qs22pTB9S8YUWxoU4NpMN6ytGfPue2ONTZDfU2nxm3vrl21TzvBHRaAuAfUbmuy7O-gPZPTEscK2Jmc1dSPBT_75zqYw_5TlR48mibYDJhmr7h92KMKSc70CitcMg=",
+        "domain": null
+      },
+      {
+        "source_id": 2,
+        "title": "reform.app",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVAeqptcRRqt5u1v6s1ZkBhnC_jSGOnZT9oM2vJtWLJneotipyyza6Pu2V3c1x2RuDJaiyCI7MhFv3g5a3aYupK-gDRw5o7eUM5ZDxKfaX6LQR8Bx4fUTxhLA82zhaoKADd-GPm30HEXnCQRN6iSmf7NY1rzyPWTt0_qN3dCmwD02niNQ=",
+        "domain": null
+      },
+      {
+        "source_id": 3,
+        "title": "hubspot.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQSq85yDPSywKFWz6vxHBDG_gouiDk-wRP974Al6TJV_DLJq8Doi7M95IwsBCG475um7arutqTx5igkBZbm1LTsNrlRScY2e-pa_zVqe-uAHpDlDDdz8UOQ0hqkF4jg0EZM3WUy4Fq_E7RrlnNhqDBqjFzSpAKqTVLGRa94kIdxDoW5TPATf26nHqmxgIUHPipldD2Wm9uXIQ=",
+        "domain": null
+      },
+      {
+        "source_id": 4,
+        "title": "integrateiq.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOplKogo-EkqnjLfN62o9KCGwkh30H4RxGBlXUchG_fzqAEk_LIUm4O1x5xnFc_eh7fygn-upW1EUiCRI8kh_qTrkc47JX9EJhJkeRK0Rl8z-EQ-tYMu9EcUCDwYC8NJx7fmDuwLsBXry0tzDo-A==",
+        "domain": null
+      },
+      {
+        "source_id": 5,
+        "title": "hubspot.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6l9rSUgD7bhUZSwGA4Fm1m-72yiqUL-nnCF6oLRDHRk1eUNdHr5CgDKdTRybTm9cCGHeRUZm_E3ppcswZ8Qh7gHJaWFT2uRXNWxheS7RAuTiCCY_GAjT-0UoVD3-SlwrKWYEpCTRfboK_VlbdsBC7i_zKhmeHtZb5xVSb",
+        "domain": null
+      },
+      {
+        "source_id": 6,
+        "title": "hubspot.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0ljatvKyzbXsiiYJUq3Cuz2EWPlKfXEHA-z4oo2pQKYyzVRagYloryqMJfv3Hy_WUjGufKkJ7DHatpU1EdT_38CdT6IcsiNx6XDgg6UbIfj1q6yZQ8yZokg17wCKndJnE2A1PC_bdCnTUTwujWmdqK2gn3t4P-KFCNQVA2ipyjeSKhj11db8=",
+        "domain": null
+      },
+      {
+        "source_id": 7,
+        "title": "hubspot.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES-j1fb1fcQ2J2fmqFwo_95dJHLcVpmlaRzr-OpBtNi8zKS7osqOE5WUXYGS87nZTMVw83_DRfOdXI7Rem5veZo71BS5MAmsXMaDrwA_51X0xtQOh7CQUxIrDbiFWZUPKZOmK1TltFNeZL1To3duAB07SGvZAk_i1eSjZV82cIgxckpXbdLQ==",
+        "domain": null
+      },
+      {
+        "source_id": 8,
+        "title": "hubspot.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgN9jbbkzZYdxzK8JYTdqaLCcyqBtfP4lSWkzt6FW94vOARij-6XOQ_w3LXr8r9ORU0mQmO2ZBoi1cZBdCojB-H-knXPv_DPgVbKIXgRzaENvWeiUoiEGs8Y82AbQbJhOjkpZeoabjfNjUbazYCoMAqLQbY8SC4eQxHjIcpLFLixE=",
+        "domain": null
+      },
+      {
+        "source_id": 9,
+        "title": "hubspot.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESgjU4XENEsn92rxH62HnsVjbruH_kOHbqCyzlUBi2mZsIeIagxCF9rEldtcNUTrzkdn0YoQ65GMsNaamBj4C-mqPdXYXHSfQSuELP8Gv1lGBgGGwWas1Yhzs1GFI2gL02Clip-45AwTBu7A==",
+        "domain": null
+      },
+      {
+        "source_id": 10,
+        "title": "hubspot.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_H8-HF3A8kZJqDqfBKdMPBPJsFRc1cj9W57loB51bIe7lmrqN-rMFZMH4fGm0GW94dk1o7_bsKHbA48WTyeM9euxuNKhTEQdeDGDrup_jrtjqt-d_70kWH98T4tOsUXT32i2ZBTk1dit9f6xpbfcvPOx7ZusFy2Vwnd5wS3NU51UIOM6FBQ==",
+        "domain": null
+      },
+      {
+        "source_id": 11,
+        "title": "method.me",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG27Wsykw_In0_NIJL4VaSO-QOqLxB0IPUxlldWyUnAJ2n2eF5OkHGNKPHAuIObU4uhwl5PZ4-f6xRJcOAEXBmZpH_5YCB6Ifu3uPV4OEb-XmUg9YDMcANL9ifqErj1lHgWbcrudhqwkQ5uEg485HoNPw==",
+        "domain": null
+      },
+      {
+        "source_id": 12,
+        "title": "cargas.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNlPgrn-jqT3RwpXLUPJNuJ54g4JUbZp7_ScVfmwsSgc4v53y5gv2GAaXyiuTLL0x9Hi9cKPw4Ih4ZdFWu5fjf98dCkOiZMQMPy-PMnmXTBUx4PjQFZg-RfKTt-SDhteTPoJRJ9BTk",
+        "domain": null
+      },
+      {
+        "source_id": 13,
+        "title": "hubspot.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7JaHwVk9rHj-1v2ZsmQYeggC4Ngs7hKCOHD8nHiNZQEdf5uzQlhrWE_WI1j3PJV9VwkMKFibFGGIni6u5ToI-E7vtKFp50nPliHzm4S58nBD21h8OKMYDviKKmpHDm3ZpBt4a7l8Yuts6gjY2XlPEHyDgG06FuMBWGrTO",
+        "domain": null
+      },
+      {
+        "source_id": 14,
+        "title": "hubspot.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYkqaFasponosdYN-X8_hZyYHjMDlHM4wpLBPKOjUOK2B3ctJ9T6xDkegI0IqFQ97vViME7PmM5D7JzOSsclmtoxseihLbpjNMqun8T6R0fjBrjUIZbclKVtQFmwXv5lyuJkr0YFJUKqzCd6-BVjaSCWAjxuc5au6DAvg47EEuIrptjFxSx0bZFyE=",
+        "domain": null
+      },
+      {
+        "source_id": 15,
+        "title": "hubspot.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiZRLOaDYwkbJVQcW89my1sKhDf8nRN5PHuIOj3LOfg1tblTGRBTM6hyyZR0znabu1GMMj1L86pLz28rEFSrX9tSt_VgEmhbSKX788pIAgj7QFkBr7-NtJsw_ghQCN3yjGMuoHX9nOE3OzLy89QCmGMgOstuS77dnC5I3_",
+        "domain": null
+      }
+    ]
+  },
+  {
+    "app": "Slack",
+    "category": "Communications and Messaging",
+    "description": "Slack is a cloud-based team communication platform that centralizes conversations, data, agents, and AI to help organizations achieve their goals.",
+    "auth_methods": [
+      "OAuth2",
+      "Token"
+    ],
+    "access_model": "Self-serve",
+    "api_type": [
+      "REST"
+    ],
+    "api_breadth": "Broad",
+    "mcp_availability": "Official MCP",
+    "buildability": "BUILDABLE WITH CONSTRAINTS",
+    "main_blocker": "Access to full historical data and advanced AI features often requires a paid Slack plan, and enterprise deployment or sandbox provisioning may need administrative approval.",
+    "confidence": 0.9,
+    "notes": "Slack provides a robust API and explicitly supports AI agents and the Model Context Protocol (MCP), positioning itself as an 'AI-powered platform for work'. Developers can create applications and utilize the API through a self-serve process, including accessing developer sandboxes, though enterprise-level features or deployments might involve administrative oversight or paid subscriptions. The Real-time Search API (RTS API) is designed to provide contextual data for large language models without external storage.",
+    "evidence": [
+      {
+        "source_id": 0,
+        "title": "slack.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdjwHh86Bp-1sEirB_OPe9aJ7rnURtVTDfLxhsum4zK711z6f3_AIiPTK18Z4mzoL83OL5Z56md6d24ZNXNVCoeP1Clc0XxkQmIwYUQIotfUOQ3hULT2yQr-I-aipTUXCPaeglsr7boxE6E0u2FaL85AuR7ZE=",
+        "domain": null
+      },
+      {
+        "source_id": 1,
+        "title": "britannica.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhGdhMB2aOpt6nuBjUtONGvrXff354H7dI2lxZVnDw0sTrKgYrmsEpN10HmLYmVv-jP992G7krPbqNS4-WmcoPwiKoHQpuD59ApWjiFOd0MlTAy1ZxCC3QBV0zATAqgmgmMOz3iho=",
+        "domain": null
+      },
+      {
+        "source_id": 2,
+        "title": "polaris7.io",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqIiTDGgrTGCjy4P3If4bIHjs0yXSNEeKUf636u1vvvTlRvMJLgL6qR5u53wJypqvbfhDpbfaAeZ_G6TK3p5Dksmnn3AX19UXp-9g0rsu5CFSFAArBv_1E0X9Ui3-oxpU5cNwv6j-fCJ8wxkSWZCljvOP9IktvolEt-QY=",
+        "domain": null
+      },
+      {
+        "source_id": 3,
+        "title": "pumble.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxU1uQmGKg9hYikGdUxvlcLkdEz0-HAc-c7lI7jvs6Yy91iQCKCqmUTWAwcKbDUJuNhMBVRDH01xEZ0vjRQQfkAOtlIsI4PvcUu2irTRGjN9T3rLt16aG01VjE",
+        "domain": null
+      },
+      {
+        "source_id": 4,
+        "title": "tropicapp.io",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEmkgCsxp0kCdz5xAFasWgARUozrb3D3lqVQZi5K8_eSx6pTs1SPGzUNaTNU2JlE6cJuUPn6qZaKeRW1-NFNTAw4gPPUWOCv_WZqPh_urOqnruNfoywTAOIF5fws2KGP5_i1rTkXzjLdN1",
+        "domain": null
+      },
+      {
+        "source_id": 5,
+        "title": "zenzap.co",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUCyywWVVVtxLBC72IcUdbeQuI_1PoAwH5cT7E9yAK_l9Kj3k90AZW6Zjs9GaWVbIdwvRi8PuhW-AdtdytLpv6wGjPXIJt55oRlnjcZW_iuTynVDGAGhVt2ZPqBFDs-575VZVlk5_vWgSZ_v7g31HiTF-FOn67aT2_qwlW-9bE26KrdbFDXvYm3FK65jHaNgfEkJo9Tx8ellspXDkIMXQN-V5w",
+        "domain": null
+      },
+      {
+        "source_id": 6,
+        "title": "slack.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdi5vsJc1KLMcIJo_Z_YZa_k8BRhZAIkDaX7ZwSCLaZmvcRCD5OJLeh0mQW3QcAsOi6pm_zXYmEXJ6Z98GqUYElxfMkIJXjiyJe8ZtopgTk0zrltO15tOYZ5BGNOSn1Ii06RJ_SSm3CkS-2mI4-D11f2gEGu4x4LCannmELs3ZQXflWRbW_9bKhKs=",
+        "domain": null
+      },
+      {
+        "source_id": 7,
+        "title": "slack.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGcuDGMBecmjNfgtDMjqVVA1ouHgym4FLBdzQtfkxzBta1mZahhYHQbBpj6ivngnW-GjmpVufi7vwlUdCsju7a663dVAy2bu5LZ5880Jlp21Sq4nBZdI2XsKmHvz7nEV08LcwQXUxQSUhK6A==",
+        "domain": null
+      },
+      {
+        "source_id": 8,
+        "title": "slack.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKSZr4RXOUDinRv5v1nzWGp1baUiwHZ73zyRq0xIlZaKlydQTHB_23hVzg2QDT-kXNIRdztt2slrHfiaABuZAsCrlc-dMdtxgw-8O9qbI4yOoTRGbSsX5tvMPf1xx9ejSo8ieMN7hVZu0OpOyqvHX7Jxeo0v0Mk8qOAxGaSw==",
+        "domain": null
+      },
+      {
+        "source_id": 9,
+        "title": "slack.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_AovoXQFBfN9sfidA3FRfa9CpedbIhzNrtLgOK9Fed8YQgLWwxIzO4t0oLBVz2AMLQXIE8K1KCEn1vH9NTmbg75Bwxwy0mTNNjNmiJHvhFF7V",
+        "domain": null
+      },
+      {
+        "source_id": 10,
+        "title": "slack.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMyhbac1kQHtplQeytUovFXks5jb-5LqxaH_Jz_m_MMNJwGA-BIa0DvDge_1207UzmA_7yLvbgXPp9IpA0vxIk4BJbvVFjvWccaopVJleRMX_RU58knpdly6R6bXFJtZU66WJjDYHnhaxp4TdtIdEPHred_pDrOVnmFm_ZhutSYBRvaUCPh2Wd1qSHj8U7NgQ=",
+        "domain": null
+      },
+      {
+        "source_id": 11,
+        "title": "slack.dev",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJl-M6m_bASmxzi5nXLRT7ptkBcIIxRHLg_BwrHJr5YjD6rIp-zddPxUVELr-WRygtm3gzB2C6_fh6-NIWOydvr9Lgb0afG7UpMf1Ek27pxlBkmKpV9k8QYXfRxUuS8mRw5ZH06XnwwvqKpA==",
+        "domain": null
+      },
+      {
+        "source_id": 12,
+        "title": "slack.dev",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_AgxllowfuaZryJDX8k2nAp1dZrSaSdQybfJnY9osvUBR74VNZ_Wlyqj21qXkubTzl6aZfqp-dU-mEJdJS6sjoJ6Y7LOjjp1TaztutlwC87fjRL2UEajAk1bP5nMX5xaBoVPUCt4KzbTgXWBNWiljYi8W",
+        "domain": null
+      }
+    ]
+  },
+  {
+    "app": "Shopify",
+    "category": "Ecommerce",
+    "description": "Shopify is an e-commerce platform that provides APIs and developer tools for building, customizing, and extending online stores and their functionalities.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Self-serve",
+    "api_type": [
+      "REST",
+      "GraphQL"
+    ],
+    "api_breadth": "Broad",
+    "mcp_availability": "Official MCP",
+    "buildability": "BUILDABLE WITH CONSTRAINTS",
+    "main_blocker": "Merchant approval is required to grant specific access scopes to an app for interacting with live store data, especially for protected customer data.",
+    "confidence": 0.9,
+    "notes": "Shopify is transitioning to GraphQL as the definitive API for new apps, with the REST Admin API being marked as legacy for new public apps. Official Model Context Protocol (MCP) servers are available for storefront (unauthenticated access) and customer accounts (requires OAuth 2.0). Additionally, Shopify provides an AI Toolkit (Dev MCP) to assist developers with documentation, API schemas, and code validation. Developers can create a Shopify Partner account for free to begin building apps and use development stores for testing.",
+    "evidence": [
+      {
+        "source_id": 0,
+        "title": "shopify.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEg00TesbpIDh80CMlgDYevTOvbHWzoo90GERI7HQi7e66ARclYSF7Nup04B5dpss1tgJgxmV4wvkHlRUJWZgkt_1pPqnhIm8IzgOh6pq-PH1oE4DTDuXVlbkB1-JmAu_0QCzZFP07BaePVwCkzrQ=",
+        "domain": null
+      },
+      {
+        "source_id": 1,
+        "title": "revelo.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyZ3nlGbirZFiusHKExE2U-pdsJAwSCZ9B9nB4LxTXvd8gVvQbw1JTJz1HOdxld_PmgnIVR8XzyEBydCpTGq3gNlmIVtPe1OMQfVVrljS-lmZXArkTXRYIIl4ZXwtsdEf2YFBuFGo7",
+        "domain": null
+      },
+      {
+        "source_id": 2,
+        "title": "shopify.dev",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBRUhntqda_rtG51daqnjGZH7F7uPtIdQ_jkuHiF3lu8h7ipFM5poDWGJLnGdRuQbRjlQBbshh6pt3bQm00MqwxL_BmucsceSkAsa0v4XmaBct",
+        "domain": null
+      },
+      {
+        "source_id": 3,
+        "title": "webcontrive.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1rr6sO5sO1TqRV0J2C9BG3i573tKTqctxh5-GK4ODpQnB09tvomHBF-dUBVOpvH0v0hGaCUrGH3qzcFHxqCNBisj0SA3UTmPwwMlXCp-ehomnCpVZZZk6JLyZu_R0p9hEgk30jMg2Qum5XcgXZUjlMTKSyg==",
+        "domain": null
+      },
+      {
+        "source_id": 4,
+        "title": "shopifyacademy.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaoOsGOgMg1b9C9CWgnI862vx3EmdFsjU9-jGeCjP_UcPWq0zYGnqYqRwwFHY1BB5QLCZzUhzn2E3NnX945m1AcXckeyEDAdCHChMOcd4e9nHZZOgRIE065SsHi0YQrtYwxPd0ebshFdoUow7_Q-rJ4Mk02dtgMUpXDwPf9A==",
+        "domain": null
+      },
+      {
+        "source_id": 5,
+        "title": "shopify.dev",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEi4lO23dmCKFIXgWpNnlaXwwS-OacvVkFdiVZ1VHpuuntB8sRqSM3MhBDhDto4xxIR2IVfZ8uHGEPbIMVEa8DqWNWLTovbs-jejEgPRlOBqkNiq6Vjqfacm9JEKihhEIXoMSBSbQlE-R2j",
+        "domain": null
+      },
+      {
+        "source_id": 6,
+        "title": "shopify.dev",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkFTku56JhnQBPVG6xXWHAgEDmch3IOPGLerQfayW0fCxQLcWDLnEoRQ5j0P0gZDcwCQFDZCBjJ-YM_EqR0zPiLtYVQUtZgMtc8sKPcLAinT_QfCIk7-3Wtb3kvlGCiJnwSq7ehkU13EDPe-doQaF3ODLv-trF72GDpav3_WkXXueQgmInK6MmpCVmXbFnL9V61emiIf6w",
+        "domain": null
+      },
+      {
+        "source_id": 7,
+        "title": "shopify.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6CCKdWKRp_X7O9S3i3VnZw1Iv5o-js8wjZk6nID8q3n31883EYGRMy02GVFW7nuwf7QML1LWV5JtHiy53Wh5w2dha7RY8LKDf-BQNnLEpbf6bE1Z2v_UW81zHSaIfVtt-",
+        "domain": null
+      },
+      {
+        "source_id": 8,
+        "title": "shopify.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFItL9rJLpmhLPha_9S0DjKP5tjKJHWlMS4mxCORcusE1p5_GBHDOwNqyrCVtQoUtka0KrPOo2x8IMvR2MnEq-Feh2tVN8577EWDkgrJxgzKc2cj9enTmQKKKQ1XrnsLOU1aiP-6NFN25wIzDu4CRiDNkWNKiGHATTcwF_hO7OJR5Y9WgI4uGxE7J864XoB",
+        "domain": null
+      },
+      {
+        "source_id": 9,
+        "title": "qualimero.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsArME6eBOsWCgWqmtOR-J8hT34SobUv03O7JLFBk2E7GLefLlqNxB73_8Tf7H1CPgERMj_2A1nlJS8lolpM3fmpHYayKHLAU0ldWD9XQi60c31pvYsxZAycUzSDil26udWes=",
+        "domain": null
+      },
+      {
+        "source_id": 10,
+        "title": "shopify.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeWKaDzMupnZ66V-V1Xv7jqAVqNTA1_M5u1SEtTYDye48ruO2FNEH2wjdXRs2fnExIdFRbVkxjkVvaq8YPYcBXjKIumgjy9k_2gUpe_FIaQhlR6uEOgwfOwilUCopjivOgLm72biRu3AVUdwhuEc5z5w==",
+        "domain": null
+      },
+      {
+        "source_id": 11,
+        "title": "ecorn.agency",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdqRkikAa10M7wb3G6Ca8vMpQ8YDEI4aeZOcIlTRef98MT4wUw7h0wP2B8WUu3B7gfAujznAdM_hRxZ5lS159R6R-qiHhokhRq1R62wIv_7mItLpprehTbeBqUwthpgWver1uzDOTPLc-gYIQgyxo=",
+        "domain": null
+      },
+      {
+        "source_id": 12,
+        "title": "shopify.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGreuYRF3oVntTNsRai5_C8Nr71siWBSgLyaj7KNRc3HmmgChQqXBd5W2K2eRhQ-q5gUiG7ySeD2oiew3agcxlTyk5IlVOHVzKB5BfhnyW_F5XanL0k8-l7O1Bjcjuj6BY-ZTKHXGnV6Ej0u5zhTNzA6w==",
+        "domain": null
+      },
+      {
+        "source_id": 13,
+        "title": "gamut.so",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqVzCXGGb9ABFe2I6BA5EXram1t415_9rEBN1FMxyvDWC3Sqlz2KwotIQDhPGMqkJEMpS4bD1R3iCdPzyc9azQqcppdNYLfgWlkrLovCj7ZVLh4F2DyCJAZHraDYHQOzoMRzrYJg==",
+        "domain": null
+      },
+      {
+        "source_id": 14,
+        "title": "peliqan.io",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeOZzTygQ8TaxTQ19e_us2ar2hLkQBIxuLm73LjZRkJzeDmrRX1S4dJtxUqndbpsiiil3QcrSOGqnPQuQEmePl9AUoLXj-I-41TRwoNBC67fYHzRrupzANRiaiUM6I",
+        "domain": null
+      },
+      {
+        "source_id": 15,
+        "title": "charleagency.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYU392pNYIgj9vP9BSi3MCi5vJAnlel7MP5uI7MIl623uGKO41FFfSsGrxNqOQf6jcMC7DR7QZ75-UYlo0Ki1rSwtZHvLHD4OtQ26c1cX9spFeOhXEUlmG0gNaJRnxJo4OGUXweOQAOfT6yw5YcM6i-WVR0vDx",
+        "domain": null
+      },
+      {
+        "source_id": 16,
+        "title": "shopify.dev",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlxI5qvQ_x40a8XkhxT_owNfpg_7l5rKVxPlCpChTP8BehNxHiE3XMlrc3FNTpdbPsOLQjq5B57YtwULTBt05Ivgg1Rc36s44ZLRL3Sm2W_TQ8xrxiLoOq86GQhHOC46Ws3jCh4vtkkbcXGis4ircx8Pm7UkWJm6oWvRDA",
+        "domain": null
+      }
+    ]
+  },
+  {
+    "app": "Stripe",
+    "category": "Finance and Fintech",
+    "description": "Stripe is an online payment processing platform that provides a suite of APIs and tools for businesses to accept payments, manage billing, and handle financial operations.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2",
+      "Basic Auth",
+      "Token"
+    ],
+    "access_model": "Self-serve",
+    "api_type": [
+      "REST"
+    ],
+    "api_breadth": "Broad",
+    "mcp_availability": "Official MCP",
+    "buildability": "BUILDABLE NOW",
+    "main_blocker": null,
+    "confidence": 1.0,
+    "notes": "Stripe's API is extensive, offering both v1 and v2 namespaces with slightly different behaviors. The official MCP server enhances AI agent integration by standardizing interactions and providing secure access via OAuth or API keys. While most services are self-serve and pay-as-you-go, custom enterprise solutions may involve contacting sales.",
+    "evidence": [
+      {
+        "source_id": 0,
+        "title": "zintego.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHaTfQNy8vnmZSUQ6kTBGPSAAnyFbLNRZH36Z8UNTrVOXyEqN5QS2ARliPoiR8gIQGHL3YGxirZpe28V95raD3H6fuHEWCc3srwCgajxF0wGkVOf7iETn2hxaMpeuW67TqhAlXSnvaSjIq3rKZZP7wJ8T5C1qB7DTF5RSJV92Xhddz3LRK0rmkrkxGevPHMwvyntzOgqVS",
+        "domain": null
+      },
+      {
+        "source_id": 1,
+        "title": "wise.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9mwkqegX3d6wDokP3TxQovdndpl0mdP_psmXBADVWOG4NpJvobIL8NrRrD5UadZ1njisl4KFjd2HGxh7b0ruRsiNOWeBcpwpoQnxgCTifiGg0qhp4oBuEvYjN_k-3Uzs3",
+        "domain": null
+      },
+      {
+        "source_id": 2,
+        "title": "technically.dev",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQKnDZSS1S5zSUcZtOfi4A5dZAwQFa26AgPKnXwKWwoZaPZsuPe5mEaqlI2vVDqcMvt5v7nL4mO6MfihzWFyZZw2RHlBHSaiHwzPBfY9YCu3VnbHcaAAxY4lIxCb4rar_7M-ZX-aKV0Y4DaA==",
+        "domain": null
+      },
+      {
+        "source_id": 3,
+        "title": "stripe.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOdFpGrhJCsxgxHysohXGO0QwOcncc11wjTHBNn5n3P_Xbu5_9fPF6HLx4kZVPGhahp2lbWhClHJncjTZy2NyVroiDv5h2MXycseteJhM3Q7JY6t-fgqFqnU7gPKgouBtg",
+        "domain": null
+      },
+      {
+        "source_id": 4,
+        "title": "mintmcp.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeyo-zhDfg_cuiUZWXAMjOS0VmRuqzpxyX3WN2aFeWP92cR1u8sb9mgaOrKdsXXC_yC2O_iaAF-R3SUzC4sMSb71DEjQuGvtAPqYzc0zNO7L1ljrM--tiE4mLorwG5wGhGanUGt5gGwv8hMc4=",
+        "domain": null
+      },
+      {
+        "source_id": 5,
+        "title": "mcpservers.org",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRvibI2tTULV2ESkrECHQ6txcNZzlC6FmhNvQfQ5oEeLlXkDmYJcb5LnCwyP1dOW1OuPIJr0Yk9_3J7kfmF9jCWsHRN5QvVEF43NFV0tTkBv-pMl-pHfxKBcv9f9yumRt2auegIrz1uqOb",
+        "domain": null
+      },
+      {
+        "source_id": 6,
+        "title": "scalekit.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGKHoPru1FF8r_UYpGa05h-Zfaap_ofwqcMNcdPoelyBZ4y5RlPQjG9zdu71PJY6JaatuhktwztSGMGoCp1f7oCrC6KnbWYycjO-CPc8eCkYxMTE94h5HySr3h4KxgWo-nBscNg9SHA-o=",
+        "domain": null
+      },
+      {
+        "source_id": 7,
+        "title": "itexus.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpbNii7k9LzRzd2IALJp26QqwxOPgmmAKKszCGxmEEJQZh59uwIrGifmwVQZ3JUjGQjFHYlSWWp6Mp4IGvRZzmv7LlsbPSPmPrzyF9Ws45SayEUp8_H9wo9oEhUVTYOpBG9sQFWBRmht1kw1zy7r1bv7A0iQ==",
+        "domain": null
+      },
+      {
+        "source_id": 8,
+        "title": "stripe.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYJEpvVsHDYfafij_Nvz_TgSLsODknSm_gnXD-h9UvchsD7EyAh_nK6zG3VPjiSwDeh1OrTQf-3fuo-PlWo0T1REOt4ZZQFlWVezXiEmpHUXG9o8=",
+        "domain": null
+      }
+    ]
+  }
+]

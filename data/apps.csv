@@ -1,0 +1,101 @@
+category,app,description,auth_methods,access_model,api_type,api_breadth,mcp_availability,buildability,main_blocker,confidence,evidence_urls,notes
+CRM & Sales,Salesforce,Previously researched and validated in the prototype dataset.,"OAuth2, JWT, Other",Paid plan required,"REST, SOAP, GraphQL, Other",Broad,Official MCP,BUILDABLE WITH CONSTRAINTS,"Production API access may require certain editions/API add-ons, admin approval, and API limits",0.9,,Validated research record; preserve existing evidence from output/research.json.
+CRM & Sales,HubSpot,Previously researched and validated in the prototype dataset.,"OAuth2, Token",Self-serve,REST,Broad,Official MCP,BUILDABLE NOW,,0.95,,Validated research record; preserve existing evidence from output/research.json.
+CRM & Sales,Pipedrive,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+CRM & Sales,Zoho CRM,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+CRM & Sales,Freshsales,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+CRM & Sales,Close,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+CRM & Sales,Copper,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+CRM & Sales,Zendesk Sell,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+CRM & Sales,Microsoft Dynamics 365,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+CRM & Sales,Insightly,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Communication,Slack,Previously researched and validated in the prototype dataset.,"OAuth2, Token",Self-serve,REST,Broad,Official MCP,BUILDABLE WITH CONSTRAINTS,Some advanced/full historical/enterprise capabilities may require paid plans or admin approval,0.9,,Validated research record; preserve existing evidence from output/research.json.
+Communication,Microsoft Teams,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Communication,Discord,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Communication,Zoom,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Communication,Twilio,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Communication,Telegram,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Communication,Intercom,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Communication,SendGrid,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Communication,Mailchimp,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Communication,Gmail,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Ecommerce,Shopify,Previously researched and validated in the prototype dataset.,"OAuth2, API Key",Self-serve,"REST, GraphQL",Broad,Official MCP,BUILDABLE WITH CONSTRAINTS,"Merchant approval, access scopes, and protected customer data restrictions",0.9,,Validated research record; preserve existing evidence from output/research.json.
+Ecommerce,WooCommerce,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Ecommerce,BigCommerce,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Ecommerce,Magento,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Ecommerce,Etsy,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Ecommerce,eBay,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Ecommerce,Amazon,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Ecommerce,Square,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Ecommerce,Wix,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Ecommerce,PrestaShop,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Finance & Fintech,Stripe,Previously researched and validated in the prototype dataset.,"API Key, OAuth2, Basic Auth, Token",Self-serve,REST,Broad,Official MCP,BUILDABLE NOW,,1.0,,Validated research record; preserve existing evidence from output/research.json.
+Finance & Fintech,PayPal,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Finance & Fintech,Plaid,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Finance & Fintech,QuickBooks,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Finance & Fintech,Xero,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Finance & Fintech,Square Payments,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Finance & Fintech,Wise,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Finance & Fintech,Brex,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Finance & Fintech,Ramp,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Finance & Fintech,Chargebee,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Project Management,Jira,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Project Management,Asana,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Project Management,Trello,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Project Management,Linear,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Project Management,ClickUp,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Project Management,Monday.com,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Project Management,Notion,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Project Management,Airtable,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Project Management,Smartsheet,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Project Management,Basecamp,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Developer Tools,GitHub,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Developer Tools,GitLab,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Developer Tools,Bitbucket,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Developer Tools,Docker Hub,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Developer Tools,Sentry,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Developer Tools,Datadog,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Developer Tools,Postman,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Developer Tools,Vercel,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Developer Tools,Netlify,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Developer Tools,CircleCI,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Marketing,Google Ads,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Marketing,Meta Ads,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Marketing,LinkedIn,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Marketing,HubSpot Marketing,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Marketing,Klaviyo,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Marketing,Mailchimp Marketing,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Marketing,Marketo,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Marketing,Salesforce Marketing Cloud,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Marketing,Braze,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Marketing,ActiveCampaign,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+HR & Recruiting,Workday,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+HR & Recruiting,Greenhouse,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+HR & Recruiting,Lever,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+HR & Recruiting,BambooHR,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+HR & Recruiting,Rippling,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+HR & Recruiting,Deel,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+HR & Recruiting,Gusto,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+HR & Recruiting,Ashby,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+HR & Recruiting,Personio,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+HR & Recruiting,UKG,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Support & Customer Success,Zendesk,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Support & Customer Success,Intercom Support,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Support & Customer Success,Freshdesk,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Support & Customer Success,Help Scout,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Support & Customer Success,Gorgias,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Support & Customer Success,Salesforce Service Cloud,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Support & Customer Success,Kustomer,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Support & Customer Success,Front,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Support & Customer Success,Gladly,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Support & Customer Success,Zoho Desk,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Productivity & Storage,Google Drive,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Productivity & Storage,Google Sheets,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Productivity & Storage,Dropbox,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Productivity & Storage,OneDrive,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Productivity & Storage,Box,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Productivity & Storage,Notion Workspace,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Productivity & Storage,Evernote,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Productivity & Storage,Todoist,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Productivity & Storage,Calendly,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.
+Productivity & Storage,DocuSign,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,,Catalog entry; research evidence not yet verified.

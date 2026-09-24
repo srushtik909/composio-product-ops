@@ -1,0 +1,414 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI Product Ops Research Case Study</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f7fb;
+    color: #172033;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 40px;
+}
+
+.hero {
+    background: #111827;
+    color: white;
+    padding: 45px;
+    border-radius: 18px;
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin: 25px 0;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    border-radius: 14px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.06);
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 30px;
+}
+
+section {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    margin: 25px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    text-align: left;
+}
+
+th {
+    background: #eef2ff;
+}
+
+a {
+    color: #2563eb;
+}
+
+code {
+    background: #eef2ff;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+@media(max-width: 900px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 600px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="hero">
+<h1>AI Product Ops Research Agent</h1>
+<p>
+Automating research of SaaS applications for AI-agent integration
+readiness.
+</p>
+<p>
+The pipeline converts product/API research into structured,
+verifiable data for product and engineering decisions.
+</p>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<p>Apps researched</p>
+<h2>5</h2>
+</div>
+
+<div class="card">
+<p>Buildable now</p>
+<h2>2</h2>
+</div>
+
+<div class="card">
+<p>With constraints</p>
+<h2>3</h2>
+</div>
+
+<div class="card">
+<p>Official MCP</p>
+<h2>5</h2>
+</div>
+
+</div>
+
+<section>
+
+<h2>1. Problem</h2>
+
+<p>
+Evaluating whether an application can be integrated into an AI-agent
+platform requires checking multiple sources including API documentation,
+authentication requirements, access restrictions and MCP availability.
+Doing this manually for many applications is repetitive and difficult
+to keep consistent.
+</p>
+
+</section>
+
+<section>
+
+<h2>2. Research Approach</h2>
+
+<ol>
+<li>Start with a structured application list.</li>
+<li>Collect API and authentication information.</li>
+<li>Check access and commercial restrictions.</li>
+<li>Check MCP availability separately from API availability.</li>
+<li>Classify integration buildability.</li>
+<li>Capture evidence sources.</li>
+<li>Run deterministic verification checks.</li>
+</ol>
+
+</section>
+
+<section>
+
+<h2>3. Data Schema</h2>
+
+<p>The research agent produces the following structured fields:</p>
+
+<ul>
+<li>Application</li>
+<li>Category</li>
+<li>Description</li>
+<li>Authentication methods</li>
+<li>Access model</li>
+<li>API type</li>
+<li>API breadth</li>
+<li>MCP availability</li>
+<li>Buildability</li>
+<li>Main blocker</li>
+<li>Evidence</li>
+<li>Confidence</li>
+<li>Notes</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>4. Buildability Framework</h2>
+
+<ul>
+<li>
+<strong>BUILDABLE NOW:</strong>
+Public API exists and developers can obtain access without a
+partnership/contact-sales dependency.
+</li>
+
+<li>
+<strong>BUILDABLE WITH CONSTRAINTS:</strong>
+API exists but access requires additional permissions, paid plans,
+administrative approval or similar restrictions.
+</li>
+
+<li>
+<strong>OUTREACH REQUIRED:</strong>
+Integration requires sales, partnership or special approval.
+</li>
+
+<li>
+<strong>BLOCKED:</strong>
+No practical public integration path was identified.
+</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>5. Category Coverage</h2>
+
+<ul>
+<li><strong>CRM and Sales</strong>: 2</li><li><strong>Communications and Messaging</strong>: 1</li><li><strong>Ecommerce</strong>: 1</li><li><strong>Finance and Fintech</strong>: 1</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>6. Automated Research Results</h2>
+
+<div style="overflow-x:auto">
+
+<table>
+
+<thead>
+<tr>
+<th>App</th>
+<th>Category</th>
+<th>Description</th>
+<th>Auth</th>
+<th>Access</th>
+<th>API</th>
+<th>Breadth</th>
+<th>MCP</th>
+<th>Buildability</th>
+<th>Blocker</th>
+<th>Evidence</th>
+</tr>
+</thead>
+
+<tbody>
+
+    <tr>
+        <td>Salesforce</td>
+        <td>CRM and Sales</td>
+        <td>Salesforce is a cloud-based Customer Relationship Management (CRM) platform that helps businesses manage customer relationships and related applications through a software-as-a-service model.</td>
+        <td>OAuth2, JWT, Other</td>
+        <td>Paid plan required</td>
+        <td>REST, SOAP, GraphQL, Other</td>
+        <td>Broad</td>
+        <td>Official MCP</td>
+        <td>BUILDABLE WITH CONSTRAINTS</td>
+        <td>Full API access for production environments typically requires specific Salesforce editions (e.g., Enterprise, Unlimited) or purchasing API access as an add-on for Professional Edition, along with admin approval for connected apps and adherence to API limits.</td>
+        <td><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMmuI56cNc0JjsWczA_u2aNt8r-qw18dR-6U5MJOjvQzWokloUyxpdz-AHWQA16XgFYlCCRnJyaJwSP0Px3Z1jbeSHmPhSufnFOog1mMI3MxSDwTXJx31dK2uNSEmyNVBOMuo=" target="_blank">wikipedia.org</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEZ4brCkrLi7eqy40rCBJtTZ61bzjR_2hVQzu0kuQwilcxeuqFIrJWRQuln4o4WMQK5cIggTgCYnHdBSVdSBeqT-KOTk9ttFp-tI0FOoH59Qc5siS06Eowt7Ii1L5ze7AYos2YRQLa4Ea5zBFrD3RwIPasTCaQVJwRrEZwifEQDGBL6RM=" target="_blank">ascendix.com</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFW3t45wxfjmQAqd6A8ML2UUluzBiTLPzcv4HNp3fKI2v44oEWg1_TxFH0bF0T3YSSD_1IkPtkNGedBPJr-RMLTjb7JGLaCpQrgNiVY3qKFCq870u85RFcz5vLg39M2Q1G90ZnjbJfnSwVzjhHvEOKsL-lWSDqkVR2t-lmgA03hqcB9Og0p7ATFkJkOnCPP6Q==" target="_blank">reddit.com</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM17ZYNXbcD_XYszGV20eU0nrCsex5FdjSdWrhhFObsjfnxF63JTfgftygu5Q4dSDZmARUmfAEnjtygF0pC81Sf-KGSc0_2r78eebjOCHPmJ_WWPWu-TkgfauzgkFe1sXM3cyiKd0=" target="_blank">cargas.com</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXyZG2KsC97ocSSVygOBIAKkBbLyiqOSZmT517foVOYpKuRggWdI-dNwKcGBsLxVrCh0W-gcFOgMTCGpfVvJzdBh7BSw4g7anFFhTbIxw2hcJUQ4N4wasbjeO5MFuVwaLwjoumgl81S9tMnBNYVdtbgQ==" target="_blank">simplilearn.com</a></td>
+    </tr>
+    
+    <tr>
+        <td>HubSpot</td>
+        <td>CRM and Sales</td>
+        <td>HubSpot is a comprehensive customer relationship management (CRM) platform offering tools for sales, marketing, customer service, content management, and operations.</td>
+        <td>OAuth2, Token</td>
+        <td>Self-serve</td>
+        <td>REST</td>
+        <td>Broad</td>
+        <td>Official MCP</td>
+        <td>BUILDABLE NOW</td>
+        <td>None</td>
+        <td><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeiS4c9cU01fJX7xaa6st7fYHcBd48vB4ZEp76ppitPL0tpTapoMrXTnzuIEug-ytbG0qos-vNacSvbZlojw7MeEH1YVzN4aXBEjKcLXuyq2gpKsDTVLqTT2tl9EqwyGUG-gAtWVYPI0qsQ7C8LHX_j7caEJUn0x8H6K3wou88ZHD5Z3c0ZwzD-CB81w==" target="_blank">hubspot.com</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZz4qs22pTB9S8YUWxoU4NpMN6ytGfPue2ONTZDfU2nxm3vrl21TzvBHRaAuAfUbmuy7O-gPZPTEscK2Jmc1dSPBT_75zqYw_5TlR48mibYDJhmr7h92KMKSc70CitcMg=" target="_blank">getknit.dev</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVAeqptcRRqt5u1v6s1ZkBhnC_jSGOnZT9oM2vJtWLJneotipyyza6Pu2V3c1x2RuDJaiyCI7MhFv3g5a3aYupK-gDRw5o7eUM5ZDxKfaX6LQR8Bx4fUTxhLA82zhaoKADd-GPm30HEXnCQRN6iSmf7NY1rzyPWTt0_qN3dCmwD02niNQ=" target="_blank">reform.app</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQSq85yDPSywKFWz6vxHBDG_gouiDk-wRP974Al6TJV_DLJq8Doi7M95IwsBCG475um7arutqTx5igkBZbm1LTsNrlRScY2e-pa_zVqe-uAHpDlDDdz8UOQ0hqkF4jg0EZM3WUy4Fq_E7RrlnNhqDBqjFzSpAKqTVLGRa94kIdxDoW5TPATf26nHqmxgIUHPipldD2Wm9uXIQ=" target="_blank">hubspot.com</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOplKogo-EkqnjLfN62o9KCGwkh30H4RxGBlXUchG_fzqAEk_LIUm4O1x5xnFc_eh7fygn-upW1EUiCRI8kh_qTrkc47JX9EJhJkeRK0Rl8z-EQ-tYMu9EcUCDwYC8NJx7fmDuwLsBXry0tzDo-A==" target="_blank">integrateiq.com</a></td>
+    </tr>
+    
+    <tr>
+        <td>Slack</td>
+        <td>Communications and Messaging</td>
+        <td>Slack is a cloud-based team communication platform that centralizes conversations, data, agents, and AI to help organizations achieve their goals.</td>
+        <td>OAuth2, Token</td>
+        <td>Self-serve</td>
+        <td>REST</td>
+        <td>Broad</td>
+        <td>Official MCP</td>
+        <td>BUILDABLE WITH CONSTRAINTS</td>
+        <td>Access to full historical data and advanced AI features often requires a paid Slack plan, and enterprise deployment or sandbox provisioning may need administrative approval.</td>
+        <td><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdjwHh86Bp-1sEirB_OPe9aJ7rnURtVTDfLxhsum4zK711z6f3_AIiPTK18Z4mzoL83OL5Z56md6d24ZNXNVCoeP1Clc0XxkQmIwYUQIotfUOQ3hULT2yQr-I-aipTUXCPaeglsr7boxE6E0u2FaL85AuR7ZE=" target="_blank">slack.com</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhGdhMB2aOpt6nuBjUtONGvrXff354H7dI2lxZVnDw0sTrKgYrmsEpN10HmLYmVv-jP992G7krPbqNS4-WmcoPwiKoHQpuD59ApWjiFOd0MlTAy1ZxCC3QBV0zATAqgmgmMOz3iho=" target="_blank">britannica.com</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqIiTDGgrTGCjy4P3If4bIHjs0yXSNEeKUf636u1vvvTlRvMJLgL6qR5u53wJypqvbfhDpbfaAeZ_G6TK3p5Dksmnn3AX19UXp-9g0rsu5CFSFAArBv_1E0X9Ui3-oxpU5cNwv6j-fCJ8wxkSWZCljvOP9IktvolEt-QY=" target="_blank">polaris7.io</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxU1uQmGKg9hYikGdUxvlcLkdEz0-HAc-c7lI7jvs6Yy91iQCKCqmUTWAwcKbDUJuNhMBVRDH01xEZ0vjRQQfkAOtlIsI4PvcUu2irTRGjN9T3rLt16aG01VjE" target="_blank">pumble.com</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEmkgCsxp0kCdz5xAFasWgARUozrb3D3lqVQZi5K8_eSx6pTs1SPGzUNaTNU2JlE6cJuUPn6qZaKeRW1-NFNTAw4gPPUWOCv_WZqPh_urOqnruNfoywTAOIF5fws2KGP5_i1rTkXzjLdN1" target="_blank">tropicapp.io</a></td>
+    </tr>
+    
+    <tr>
+        <td>Shopify</td>
+        <td>Ecommerce</td>
+        <td>Shopify is an e-commerce platform that provides APIs and developer tools for building, customizing, and extending online stores and their functionalities.</td>
+        <td>OAuth2, API Key</td>
+        <td>Self-serve</td>
+        <td>REST, GraphQL</td>
+        <td>Broad</td>
+        <td>Official MCP</td>
+        <td>BUILDABLE WITH CONSTRAINTS</td>
+        <td>Merchant approval is required to grant specific access scopes to an app for interacting with live store data, especially for protected customer data.</td>
+        <td><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEg00TesbpIDh80CMlgDYevTOvbHWzoo90GERI7HQi7e66ARclYSF7Nup04B5dpss1tgJgxmV4wvkHlRUJWZgkt_1pPqnhIm8IzgOh6pq-PH1oE4DTDuXVlbkB1-JmAu_0QCzZFP07BaePVwCkzrQ=" target="_blank">shopify.com</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyZ3nlGbirZFiusHKExE2U-pdsJAwSCZ9B9nB4LxTXvd8gVvQbw1JTJz1HOdxld_PmgnIVR8XzyEBydCpTGq3gNlmIVtPe1OMQfVVrljS-lmZXArkTXRYIIl4ZXwtsdEf2YFBuFGo7" target="_blank">revelo.com</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBRUhntqda_rtG51daqnjGZH7F7uPtIdQ_jkuHiF3lu8h7ipFM5poDWGJLnGdRuQbRjlQBbshh6pt3bQm00MqwxL_BmucsceSkAsa0v4XmaBct" target="_blank">shopify.dev</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1rr6sO5sO1TqRV0J2C9BG3i573tKTqctxh5-GK4ODpQnB09tvomHBF-dUBVOpvH0v0hGaCUrGH3qzcFHxqCNBisj0SA3UTmPwwMlXCp-ehomnCpVZZZk6JLyZu_R0p9hEgk30jMg2Qum5XcgXZUjlMTKSyg==" target="_blank">webcontrive.com</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaoOsGOgMg1b9C9CWgnI862vx3EmdFsjU9-jGeCjP_UcPWq0zYGnqYqRwwFHY1BB5QLCZzUhzn2E3NnX945m1AcXckeyEDAdCHChMOcd4e9nHZZOgRIE065SsHi0YQrtYwxPd0ebshFdoUow7_Q-rJ4Mk02dtgMUpXDwPf9A==" target="_blank">shopifyacademy.com</a></td>
+    </tr>
+    
+    <tr>
+        <td>Stripe</td>
+        <td>Finance and Fintech</td>
+        <td>Stripe is an online payment processing platform that provides a suite of APIs and tools for businesses to accept payments, manage billing, and handle financial operations.</td>
+        <td>API Key, OAuth2, Basic Auth, Token</td>
+        <td>Self-serve</td>
+        <td>REST</td>
+        <td>Broad</td>
+        <td>Official MCP</td>
+        <td>BUILDABLE NOW</td>
+        <td>None</td>
+        <td><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHaTfQNy8vnmZSUQ6kTBGPSAAnyFbLNRZH36Z8UNTrVOXyEqN5QS2ARliPoiR8gIQGHL3YGxirZpe28V95raD3H6fuHEWCc3srwCgajxF0wGkVOf7iETn2hxaMpeuW67TqhAlXSnvaSjIq3rKZZP7wJ8T5C1qB7DTF5RSJV92Xhddz3LRK0rmkrkxGevPHMwvyntzOgqVS" target="_blank">zintego.com</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9mwkqegX3d6wDokP3TxQovdndpl0mdP_psmXBADVWOG4NpJvobIL8NrRrD5UadZ1njisl4KFjd2HGxh7b0ruRsiNOWeBcpwpoQnxgCTifiGg0qhp4oBuEvYjN_k-3Uzs3" target="_blank">wise.com</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQKnDZSS1S5zSUcZtOfi4A5dZAwQFa26AgPKnXwKWwoZaPZsuPe5mEaqlI2vVDqcMvt5v7nL4mO6MfihzWFyZZw2RHlBHSaiHwzPBfY9YCu3VnbHcaAAxY4lIxCb4rar_7M-ZX-aKV0Y4DaA==" target="_blank">technically.dev</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOdFpGrhJCsxgxHysohXGO0QwOcncc11wjTHBNn5n3P_Xbu5_9fPF6HLx4kZVPGhahp2lbWhClHJncjTZy2NyVroiDv5h2MXycseteJhM3Q7JY6t-fgqFqnU7gPKgouBtg" target="_blank">stripe.com</a><br><a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeyo-zhDfg_cuiUZWXAMjOS0VmRuqzpxyX3WN2aFeWP92cR1u8sb9mgaOrKdsXXC_yC2O_iaAF-R3SUzC4sMSb71DEjQuGvtAPqYzc0zNO7L1ljrM--tiE4mLorwG5wGhGanUGt5gGwv8hMc4=" target="_blank">mintmcp.com</a></td>
+    </tr>
+    
+</tbody>
+
+</table>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>7. Quality Control</h2>
+
+<p>
+The pipeline uses deterministic verification rules to identify
+low-confidence results, conflicting access restrictions, weak evidence
+and unsupported MCP claims.
+</p>
+
+<p>
+The verification layer is intentionally separate from the research
+layer so that research generation and quality control can be evaluated
+independently.
+</p>
+
+</section>
+
+<section>
+
+<h2>8. Key Observations</h2>
+
+<ul>
+<li>API availability and MCP availability must be evaluated separately.</li>
+<li>Authentication requirements vary significantly between products.</li>
+<li>Public APIs do not always mean unrestricted production access.</li>
+<li>Administrative approval and paid plans can affect integration feasibility.</li>
+<li>Evidence quality is important when automating product research.</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>9. Technology</h2>
+
+<p>
+Python · Gemini API · Google Search grounding · Composio SDK/MCP ·
+JSON · CSV · deterministic verification · HTML/CSS
+</p>
+
+</section>
+
+<section>
+
+<h2>10. Project Structure</h2>
+
+<pre>
+composio-product-ops/
+├── agent/
+│   ├── researcher.py
+│   └── verifier.py
+├── data/
+│   └── apps.csv
+├── output/
+│   ├── research.json
+│   └── verified_research.json
+├── case-study/
+│   └── index.html
+├── .env
+└── README.md
+</pre>
+
+</section>
+
+</div>
+
+</body>
+</html>
